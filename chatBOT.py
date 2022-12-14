@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import plotly as pt
 import streamlit as st
 import sklearn as sk
-import rasa as rs
+
 #Created By Izhar Khan Khattak#
 st.title("Izhar Khan Khattak")
 st.header("This is just a dummy app")
@@ -32,5 +32,3 @@ st.time_input('Meeting time')
 st.file_uploader('Upload a CSV')
 # st.download_button('Download file', data)
 st.color_picker('Pick a color')
-print(rs.__version__)
-print(rs)
